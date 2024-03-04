@@ -1,0 +1,73 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eCommerce Catalog</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="product-catalog">
+  <!-- Individual product -->
+  <div class="product" data-price="599">
+    <img src="sofa.png" alt="sofa Image" class="product-image">
+    <h2>Luxe Comfort 3-Seater Sofa </h2>
+    <p>The Luxe Comfort 3-Seater Sofa combines timeless elegance with plush seating designed for hours of comfortable relaxation. Upholstered in high-quality, soft-touch fabric, this sofa features deep cushioning, resilient springs, and a sturdy hardwood frame that stands the test of time. With sleek lines, subtle tufting, and contemporary styling, it's the perfect centerpiece for any modern living space.</p>
+    <p>Price: $599</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-price="349">
+    <img src="recliner.png" alt="recliner  Image" class="product-image">
+    <h2>Serenity Plus Leather Recliner </h2>
+    <p>Experience the ultimate relaxation with our Serenity Plus Leather Recliner, crafted with top-grain leather that exudes luxury and comfort. Designed with an easy-to-use manual recline mechanism, padded armrests, and a high back, this chair is perfect for cozy movie nights or indulging in your favorite book. The robust frame and durable design ensure longevity and consistent comfort.</p>
+    <p>Price: $349</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-price="429">
+    <img src="ottoman.png" alt="ottoman  Image" class="product-image">
+    <h2>VersaStyle Storage Ottoman</h2>
+    <p>Our VersaStyle Storage Ottoman is the epitome of functionality meets style. Wrapped in a durable, neutral-toned fabric, this ottoman features a spacious storage compartment for blankets, games, or books. Whether used as a footrest, additional seating, or a coffee table, this versatile piece will be a practical and chic addition to your living space.</p>
+    <p>Price: $429</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-price="399">
+    <img src="bookcase.png" alt="bookcase  Image" class="product-image">
+    <h2>Contemporary 6-Shelf Bookcase</h2>
+    <p>Keep your literature collection or decorative items displayed beautifully with our Contemporary 6-Shelf Bookcase. Featuring clean lines and an open design, this bookcase is built with high-grade MDF that ensures stability and strength. Each shelf offers ample space to store your books or showcase art, family photos, and plants, complementing any room décor.</p>
+    <p>Price: $399</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-price="999">
+    <img src="officedesk.png" alt="office table  Image" class="product-image">
+    <h2>ModuWorkspace L-Shaped Desk</h2>
+    <p>Maximize your productivity with the ModuWorkspace L-Shaped Desk, an expansive and stylish cornerstone for any home office. This desk features a durable, water-resistant work surface, convenient cable management, and ample leg room. The design includes a filing cabinet and open shelving, providing plenty of storage for all your office essentials. Easy to assemble and ultra-functional, this L-shaped desk is an outstanding choice for professionals and hobbyists alike.</p>
+    <p>Price: $999</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-price="199">
+    <img src="officechair.png" alt="office chair  Image" class="product-image">
+    <h2>ErgoSupport Mesh Office Chair
+    </h2>
+    <p>Transform your office experience with our ErgoSupport Mesh Office Chair. Designed with ergonomics in mind, this chair boasts a breathable mesh back, adjustable lumbar support, and padded seat cushion for maximum comfort during long work hours. The intuitive controls allow for seat height and tilt adjustments, providing a custom seating experience to enhance productivity</p>
+    <p>Price: $199</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <!-- More products can be added here -->
+</div>
+
+<aside id="checkout-panel">
+  <h2>Checkout</h2>
+  <div id="checkout-items">
+    <!-- Items will be added dynamically here -->
+  </div>
+  <div id="total">
+    <strong>Total: $<span id="total-amount">0</span></strong>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>

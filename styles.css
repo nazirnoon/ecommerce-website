@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: 'Montserrat', sans-serif;
+
+  }
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  #product-catalog {
+    width: 60%;
+    float: left;
+  }
+  
+  .product {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #checkout-panel {
+    width: 30%;
+    float: right;
+    padding: 20px;
+    border: 1px solid #000;
+  }
+  
+  #checkout-items {
+    margin-bottom: 20px;
+  }
+
+  .product-image {
+    max-width: 100%; /* Makes image responsive */
+    display: block;  /* Prevents extra space below the image */
+    margin-bottom: 10px; /* Adds some space below the image */
+  }
